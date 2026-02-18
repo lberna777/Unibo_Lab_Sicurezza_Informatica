@@ -81,19 +81,19 @@ Alimentato da investimenti ingenti per la difesa:
 
 > **Annotazione manoscritta:** *Confidentiality, Integrity, Availability*
 
-La ==sicurezza di un sistema== può essere ==scomposta in== tre proprietà chiave, riassunte dalla sigla **CIA**:
+La sicurezza di un sistema può essere scomposta in tre proprietà chiave, riassunte dalla sigla **CIA**:
 
 ### Confidentiality (Riservatezza)
 
-Mantenere inaccessibili ==dati==, o proprietà di un sistema, ==a chi non sia autorizzato== a conoscerli.
+Mantenere inaccessibili dati, o proprietà di un sistema, a chi non sia autorizzato a conoscerli.
 
 ### Integrity (Integrità)
 
-Poter garantire che ==il contenuto== e/o ==l'origine di un dato corrispondano== ==a quanto si ritiene corretto==.
+Poter garantire che il contenuto e/o l'origine di un dato corrispondano a quanto si ritiene corretto.
 
 ### Availability (Disponibilità)
 
-Poter garantire la ==possibilità effettiva== di accedere a ==dati e servizi quando necessario==.
+Poter garantire la possibilità effettiva di accedere a dati e servizi quando necessario.
 
 ---
 
@@ -103,7 +103,7 @@ Poter garantire la ==possibilità effettiva== di accedere a ==dati e servizi qua
 
 ### Definizioni fondamentali
 
-- **Minaccia (threat):** una ==condizione che potenzialmente può compromettere una o più delle proprietà di sicurezza==. Esiste indipendentemente dal fatto che venga concretizzata.
+- **Minaccia (threat):** una condizione che potenzialmente può compromettere una o più delle proprietà di sicurezza. Esiste indipendentemente dal fatto che venga concretizzata.
 - **Attacco (attack):** l'azione che porta al concretizzarsi di una minaccia.
 - **Attaccante (attacker):** l'entità che sferra l'attacco.
 
@@ -141,21 +141,21 @@ Le minacce sono indissolubilmente legate alle **intenzioni** dei potenziali atta
 
 ### Politiche e meccanismi
 
-Se le ==politiche== e i ==meccanismi== di protezione di un sistema fossero perfetti, le minacce non potrebbero concretizzarsi: neutralizzano i **vettori di attacco**.
+Se le politiche e i meccanismi di protezione di un sistema fossero perfetti, le minacce non potrebbero concretizzarsi: neutralizzano i **vettori di attacco**.
 
 ### Quando gli attacchi hanno successo
 
 Gli attacchi hanno successo se esistono **errori**:
 
-- Nell'individuazione della **superficie di attacco** (==porosità== — un vettore esiste là dove non dovrebbe)
+- Nell'individuazione della **superficie di attacco** (porosità — un vettore esiste là dove non dovrebbe)
 - Nella definizione di una politica o nell'implementazione di un meccanismo → **vulnerabilità (vulnerability)**:
-  - Può essere ==strutturale nell'hardware o software==
-  - Può ==dipendere dalla configurazione==
-  - Può ==dipendere da un uso scorretto==
+  - Può essere strutturale nell'hardware o software
+  - Può dipendere dalla configurazione
+  - Può dipendere da un uso scorretto
 
 ### Exploit
 
-Uno ==strumento per trarre vantaggio da una vulnerabilità== concretizzando una minaccia:
+Uno strumento per trarre vantaggio da una vulnerabilità concretizzando una minaccia:
 
 - **Tecnico** (cracking)
 - **Umano** (social engineering)
@@ -164,9 +164,9 @@ Uno ==strumento per trarre vantaggio da una vulnerabilità== concretizzando una 
 
 ## 8. Come Avviene un Attacco
 
-I ==modi di entrare in un sistema sono vari== e ==spesso usano== come anello debole della catena ==l'essere umano==.
+I modi di entrare in un sistema sono vari e spesso usano come anello debole della catena l'essere umano.
 
-==Spesso l'obiettivo è installare qualche tipo di **malware**== (software malevolo):
+Spesso l'obiettivo è installare qualche tipo di **malware** (software malevolo):
 
 | Tipo di malware | Funzione |
 |---|---|
